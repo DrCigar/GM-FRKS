@@ -89,7 +89,7 @@ var download = function download(dataUrl) {
     for (var i = 0, len = data.length; i < len; ++i) {
       asArray[i] = data.charCodeAt(i);
     }var f = new Blob([asArray.buffer], { type: 'application/octet-stream' });
-    _fileSaver2.default.saveAs(f, "FrensJersey.jpg");
+    _fileSaver2.default.saveAs(f, "GM SMPL FRK.jpg");
   });
 };
 
